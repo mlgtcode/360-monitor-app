@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">360 Monitor</string>
+    <string name="widget_status_label">Status · Cards</string>
+    <string name="widget_websites_label">Websites</string>
+    <string name="widget_servers_label">Servers</string>
+    <string name="widget_status_desc">Shows how many servers and websites are up or down.</string>
+    <string name="widget_websites_desc">Lists your monitored websites with their status.</string>
+    <string name="widget_servers_desc">Lists your servers with their status and load.</string>
+    <string name="widget_status_dark_label">Status · Dark</string>
+    <string name="widget_status_compact_label">Status · Compact</string>
+    <string name="widget_status_banner_label">Status · Banner</string>
+    <string name="widget_status_dots_label">Status · Dots</string>
+    <string name="widget_status_counter_label">Status · Counter</string>
+    <string name="widget_status_dark_desc">Server and website status on a fixed dark background.</string>
+    <string name="widget_status_compact_desc">One-line status for servers and websites.</string>
+    <string name="widget_status_banner_desc">Green or red banner showing the overall health.</string>
+    <string name="widget_status_dots_desc">One coloured dot per server and website.</string>
+    <string name="widget_status_counter_desc">A single large number: how many things are down.</string>
+    <string name="channel_alerts">Alerts</string>
+    <string name="channel_alerts_desc">Notifications when a server or website goes down or recovers</string>
+</resources>
