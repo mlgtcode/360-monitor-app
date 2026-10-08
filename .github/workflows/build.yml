@@ -44,7 +44,9 @@ jobs:
           echo "RELEASE_KEYSTORE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
 
       - name: Build release APK
-        run: ./gradlew assembleRelease --stacktrace
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --stacktrace
 
       - name: Name the APK
         id: apk
